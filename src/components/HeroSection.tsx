@@ -58,7 +58,7 @@ function HeroSection() {
         "
         >
           <Link href="https://amswan.co/collections/men">
-            <span className="text-red-500 hover:text-white transition-all duration-700">
+            <span className="text-white hover:text-red-500 transition-all duration-700">
               MEN
             </span>
           </Link>
