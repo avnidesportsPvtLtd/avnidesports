@@ -181,29 +181,39 @@ function Fotter() {
         </h1> */}
       </div>
       <div className="grid md:grid-cols-3 gap-3 sm:ml-8 mt-8">
-        <Image src="/imgs/dt.png" alt="img" width={500} height={800} />
-        <Link href="https://www.youtube.com/watch?v=uZ5NrkSA550">
-          <Image src="/imgs/cc.png" alt="img" width={500} height={800} />
-        </Link>
-        <Image src="/imgs/sm.png" alt="img" width={500} height={800} />
-        <h1 className="p-4 text-center font-mono text-xl text-red-600">
-          DIGITAL TRANSFORMATION
-        </h1>
-        <h1 className="p-4 text-center font-mono text-xl text-red-600">
-          CONTENT CREATION
-        </h1>
-        <h1 className="p-4 text-center font-mono text-xl text-red-600">
-          SOCIAL MEDIA
-        </h1>
-        <p className="p-6 font-thin text-gray-500 font-serif text-center">
-          Website Creation, Photoshoots, E-com shoots
-        </p>
-        <p className="p-6 font-thin text-gray-500 font-serif text-center">
-          Blogs, YouTube Videos, Lifestyle Videos, Write up
-        </p>
-        <p className="p-6 font-thin text-gray-500 font-serif text-center">
-          Instagram, Facebook, Pinterest, YouTube, LinkedIn, Twitter
-        </p>
+        <div>
+          <Image src="/imgs/dt.png" alt="img" width={500} height={800} />
+          <h1 className="p-4 text-center font-mono text-xl text-red-600">
+            DIGITAL TRANSFORMATION
+          </h1>
+          <p className="p-6 font-thin text-gray-500 font-serif text-center">
+            Website Creation, Photoshoots, E-com shoots
+          </p>
+        </div>
+
+        <div>
+          <Link href="https://www.youtube.com/watch?v=uZ5NrkSA550">
+            <Image src="/imgs/cc.png" alt="img" width={500} height={800} />
+          </Link>
+
+          <h1 className="p-4 text-center font-mono text-xl text-red-600">
+            CONTENT CREATION
+          </h1>
+          <p className="p-6 font-thin text-gray-500 font-serif text-center">
+            Blogs, YouTube Videos, Lifestyle Videos, Write up
+          </p>
+        </div>
+        <div>
+          <Image src="/imgs/sm.png" alt="img" width={500} height={800} />
+
+          <h1 className="p-4 text-center font-mono text-xl text-red-600">
+            SOCIAL MEDIA
+          </h1>
+
+          <p className="p-6 font-thin text-gray-500 font-serif text-center">
+            Instagram, Facebook, Pinterest, YouTube, LinkedIn, Twitter
+          </p>
+        </div>
       </div>
       <div className="bg-[#B9B1A3] w-full">
         <h1 className="p-8 text-center underline underline-offset-8 text-white font-mono font-semibold cursor-pointer">
