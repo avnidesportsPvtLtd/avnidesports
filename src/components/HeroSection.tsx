@@ -178,19 +178,21 @@ function HeroSection() {
 
         <ButtonsCard>
           <Link href="https://amswan.co/collections/new-arrival">
-            <button className="px-8 py-2 rounded-md bg-teal-500 text-white font-bold transition duration-200 hover:bg-white hover:text-black border-2 border-transparent hover:border-teal-500">
+            <button
+              className="px-8 py-2 rounded-md bg-red-500 text-white 
+            font-bold transition duration-200 hover:bg-white
+             hover:text-black border-2 border-transparent hover:border-red-500"
+            >
               FIND OUT MORE
             </button>
           </Link>
         </ButtonsCard>
-        <ParallaxScroll images={images} />
+        <ParallaxScroll images={images} className="hidden lg:contents" />
       </div>
     </div>
   );
 }
 const images = [
-  // "/skirtsimages/i1.png",
-  // "/skirtsimages/i10.png" ,
   "/wtrckpant/i3.png",
   "/wtrckpant/i4.png",
   "/wsweatshirt/i3.png",
@@ -198,27 +200,18 @@ const images = [
   "/wsweatshirt/i5.png",
   "/skirtsimages/i11.png",
   "/skirtsimages/i12.png",
-
   "/wtrckpant/i1.png",
   "/wtrckpant/i5.png",
   "/skirtsimages/i5.png",
   "/skirtsimages/i6.png",
-  "/skirtsimages/i7.png",
   "/skirtsimages/i8.png",
   "/skirtsimages/i9.png",
-
   "/wtrckpant/i7.png",
   "/wtrckpant/i8.png",
   "/wtrckpant/i9.png",
   "/wtrckpant/i10.png",
   "/wtrckpant/i11.png",
   "/wtrckpant/i12.png",
-
-  // "/wsweatshirt/i1.png",
-  // "/wsweatshirt/i2.png",
-  // "/wtrckpant/i2.png",
-  // "/wsweatshirt/i6.png",
-  // "/wsweatshirt/i7.png",
   "/wsweatshirt/i8.png",
   "/skirtsimages/i2.png",
   "/skirtsimages/i3.png",
@@ -227,31 +220,15 @@ const images = [
   "/wsweatshirt/i10.png",
   "/wsweatshirt/i11.png",
   "/wsweatshirt/i12.png",
-
-  // "/wtshirt/i1.png",
-  // "/wtshirt/i2.png",
-  // "/skirtsimages/i10.png",
-  // "/skirtsimages/i11.png",
-  // "/skirtsimages/i12.png",
   "/wtshirt/i3.png",
   "/wtshirt/i4.png",
-  // "/wtshirt/i5.png",
-  // "/skirtsimages/i7.png",
-  // "/skirtsimages/i8.png",
-  // "/skirtsimages/i9.png",
-
   "/wtshirt/i6.png",
   "/wtshirt/i7.png",
   "/wtshirt/i8.png",
   "/wtshirt/i9.png",
   "/wtshirt/i10.png",
   "/wtshirt/i11.png",
-  "/wtshirt/i12.png",
-
-  //   "/skirtsimages/i1.png",
-  //   "/skirtsimages/i2.png",
-  //   "/skirtsimages/i3.png",
-  //   "/skirtsimages/i6.png",
+  "/wtshirt/i3.png",
 ];
 
 export default HeroSection;

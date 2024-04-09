@@ -144,32 +144,28 @@ function Fotter() {
         KEY DIFFERENTIATORS
       </h2>
       <div className="grid md:grid-cols-3 gap-3 sm:ml-8">
-        <Card title="Branding" icon={<AceternityIcon />}>
+        {/* <Card title="Branding" icon={<AceternityIcon />}>
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
           />{" "}
-        </Card>
-        <Card title="Licensing" icon={<AceternityIcon />}>
+        </Card> */}
+
+        {/* <Card title="Licensing" icon={<AceternityIcon />}>
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600"
             colors={[[125, 211, 252]]}
           />
-        </Card>
-        <Card title="Creative Sourcing" icon={<AceternityIcon />}>
+        </Card> */}
+
+        {/* <Card title="Creative Sourcing" icon={<AceternityIcon />}>
           <CanvasRevealEffect
-            animationSpeed={3}
-            containerClassName="bg-black"
-            colors={[
-              [236, 72, 153],
-              [232, 121, 249],
-            ]}
-            dotSize={2}
-          />
-          {/* Radial gradient for the cute fade */}
-          <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
-        </Card>
+            animationSpeed={5.1}
+            containerClassName="bg-emerald-900"
+          />{" "}
+        </Card> */}
+
         {/* <h1 className="p-4 text-center font-mono text-xl text-red-600">
           BRANDING
         </h1>
@@ -180,8 +176,13 @@ function Fotter() {
           CREATIVE SOURCING
         </h1> */}
       </div>
+
       <div className="grid md:grid-cols-3 gap-3 sm:ml-8 mt-8">
         <div>
+          <h1 className="p-4 text-center font-mono text-xl text-red-600">
+            Branding
+          </h1>
+
           <Image src="/imgs/dt.png" alt="img" width={500} height={800} />
           <h1 className="p-4 text-center font-mono text-xl text-red-600">
             DIGITAL TRANSFORMATION
@@ -192,6 +193,9 @@ function Fotter() {
         </div>
 
         <div>
+          <h1 className="p-4 text-center font-mono text-xl text-red-600">
+            Lisencing
+          </h1>
           <Link href="https://www.youtube.com/watch?v=uZ5NrkSA550">
             <Image src="/imgs/cc.png" alt="img" width={500} height={800} />
           </Link>
@@ -204,6 +208,9 @@ function Fotter() {
           </p>
         </div>
         <div>
+          <h1 className="p-4 text-center font-mono text-xl text-red-600">
+            Creative Sourcing
+          </h1>
           <Image src="/imgs/sm.png" alt="img" width={500} height={800} />
 
           <h1 className="p-4 text-center font-mono text-xl text-red-600">

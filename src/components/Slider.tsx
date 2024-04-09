@@ -86,7 +86,7 @@ function Slider() {
       {/* <div className="flex justify-center p-20">
         <Image src="/imgs/head.jpg" alt="img" width={1000} height={300} />
       </div> */}
-      <div className=" grid gap-2 sm:grid-cols-3 md:grid-cols-5  pl-10 pr-10 mt-0 gap-y-0 mb-8">
+      <div className=" grid gap-2 sm:grid-cols-2 md:grid-cols-4  pl-10 pr-10 mt-0 gap-y-0 mb-8">
         {/* // slider 1 */}
         <ImagesSlider className="h-[20rem] border rounded-xl " images={images}>
           <motion.div
@@ -159,7 +159,7 @@ function Slider() {
         </ImagesSlider>
 
         {/* slider 5 */}
-        <ImagesSlider className="h-[20rem] border rounded-xl" images={img5}>
+        {/* <ImagesSlider className="h-[20rem] border rounded-xl" images={img5}>
           <motion.div
             initial={{
               opacity: 1,
@@ -174,7 +174,7 @@ function Slider() {
             }}
             className="z-50 flex flex-col justify-center items-center"
           ></motion.div>
-        </ImagesSlider>
+        </ImagesSlider> */}
       </div>
     </>
   );
