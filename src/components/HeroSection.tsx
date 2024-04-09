@@ -190,7 +190,7 @@ function HeroSection() {
 }
 const images = [
   // "/skirtsimages/i1.png",
-  // "/skirtsimages/i10.png",
+  // "/skirtsimages/i10.png" ,
   "/wtrckpant/i3.png",
   "/wtrckpant/i4.png",
   "/wsweatshirt/i3.png",
