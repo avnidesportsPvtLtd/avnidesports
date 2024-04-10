@@ -13,6 +13,7 @@ import ParallelScroll from "./ParallelScroll";
 import Lamp from "./Lamp";
 import RevelCard from "./RevelCard";
 import { ParallaxScroll } from "./ui/parallax-scroll";
+import NavSheet from "./NavSheet";
 
 const words = `AVNIDE mission is to create, evolve, transform, reimagine  Apparel & Lifestyle brands through innovative business models, powerful storytelling, compelling content and immersive experiences. Brand building all consumer product categories including apparel, intimates, footwear & accessories through Digital Mediums.
 `;
@@ -43,8 +44,23 @@ function HeroSection() {
   const pathLengthFifth = useTransform(scrollYProgress, [0, 0.8], [0, 1.2]);
   return (
     <div>
+      {/* navbar for smaller screens  */}
+      <div className="relative w-full  p-2 flex justify-between md:hidden bg-[#1E0F46]">
+        <NavSheet />
+
+        <div className="p-2">
+          <Link href="https://amswan.co/pages/about-us">
+            <span
+              className="text-white m-0 p-0 transition-all duration-700
+              hover:text-red-500 w-fit"
+            >
+              CONTACT US
+            </span>
+          </Link>
+        </div>
+      </div>
       {/* navbar */}
-      <div className="relative  grid  w-full sm:grid-cols-6 gap-0  z-10 hover:text-white  bg-transparent justify-items-center hover:bg-[#1E0F46]   transition-all duration-500">
+      <div className="relative   hidden md:grid w-full md:grid-cols-6 gap-0  z-10 hover:text-white  bg-transparent justify-items-center hover:bg-[#1E0F46]   transition-all duration-500">
         <div>
           <Link href="https://amswan.co/">
             <Image src="/imgs/avnide1.png" alt="logo" width={100} height={20} />{" "}
@@ -113,9 +129,10 @@ function HeroSection() {
       {/* lamp effect  */}
       {/* <Lamp /> */}
       {/* navbar videos  */}
-      <div className="grid md:grid-cols-2 relative sm:-top-16 z-0  w-full">
-        <video src="/vids/front.mp4" autoPlay loop muted></video>
-        <video src="/vids/whtsapfront.mp4" autoPlay loop muted></video>
+      <div className=" gap-0 justify-center items-center relative sm:-top-16 z-0 h-fit w-full">
+        <video width="full" autoPlay loop muted>
+          <source src="/vids/front2.mp4" type="video/mp4" />
+        </video>
       </div>
       {/* 
       <div
@@ -137,7 +154,7 @@ function HeroSection() {
       </div> */}
 
       {/* heading brand name about  */}
-      <p className="text-lg md:text-7xl font-normal pb-4 text-center bg-clip-text text-transparent bg-gradient-to-b from-red-100 to-red-400">
+      <p className="text-lg md:text-7xl font-normal pb-4 text-center bg-clip-text text-transparent  text-red-400">
         About Avnide Sports
       </p>
 
