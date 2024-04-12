@@ -90,66 +90,15 @@ function HeroSection() {
       {/* lamp effect  */}
       {/* <Lamp /> */}
       {/* navbar videos  */}
-      <div className="  justify-center items-center relative md:-top-24 z-0 h-fit w-full">
+      <div className="relative hidden md:contents justify-center items-center md:-top-24 z-0 h-fit w-full">
         <video width="full" muted autoPlay loop>
           <source src="/vids/amswan.mp4" type="video/mp4" />
         </video>
       </div>
-      {/* 
-      <div
-        className="h-[400vh] bg-white w-full dark:border  rounded-md relative pt-40 overflow-clip"
-        ref={ref}
-      >
-        <GoogleGeminiEffect
-          pathLengths={[
-            pathLengthFirst,
-            pathLengthSecond,
-            pathLengthThird,
-            pathLengthFourth,
-            pathLengthFifth,
-          ]}
-        />
-      </div> */}
-      {/* <div>
-        <video src="/vids/front2.mp4" autoPlay loop muted></video>
-      </div> */}
 
-      {/* heading brand name about  */}
-      {/* <p className="text-lg md:text-7xl font-normal pb-4 text-center bg-clip-text text-transparent  text-red-400">
-        About Avnide Sports
-      </p> */}
-
-      {/* motive about */}
-      {/* <p className="text-xs md:text-xl mb-6 font-normal text-center text-red-500 mt-4 max-w-lg mx-auto">
-        MoveIt reflects our mission to get India active, healthy, and moving
-      </p> */}
       <Slider />
-      {/* <ParallelScroll /> */}
-
-      {/* brand name  */}
-      {/* <h1
-        className="sm:pl-4 sm:pr-4 text-center w-full font-mono 
-      text-4xl text-red-500 mt-8 sm:tracking-wide font-normal"
-      >
-        AVNIDE SPORTS PVT LTD
-      </h1> */}
-
-      {/* about avnide  */}
-      {/* <p className="sm:pl-36 sm:pr-36  pt-16 text-center font-serif font-thin text-zinc-500 text-lg ml-8 mr-8 w-fit">
-        AVNiDE is an Apparel & Lifestyle Brand Development & Management company
-        dedicated to New Brand Development, Design & Product Development for
-        leading Apparel & Lifestyle ecommerce companies.
-      </p> */}
-
-      {/* <h2 className="p-8 text-center font-thin text-4xl text-red-500 ">
-        OUR VISION
-      </h2> */}
 
       <hr />
-      {/* <TextGenerateEffect
-        words={words}
-        className="sm:pl-36 sm:pr-36 w-fit pt-16 text-white"
-      /> */}
 
       <div className=" px-4 w-full">
         <Toaster position="top-center" />
