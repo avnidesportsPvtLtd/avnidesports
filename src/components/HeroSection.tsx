@@ -14,6 +14,7 @@ import Lamp from "./Lamp";
 import RevelCard from "./RevelCard";
 import { ParallaxScroll } from "./ui/parallax-scroll";
 import NavSheet from "./NavSheet";
+import Navbar from "./Navbar";
 
 const words = `AVNIDE mission is to create, evolve, transform, reimagine  Apparel & Lifestyle brands through innovative business models, powerful storytelling, compelling content and immersive experiences. Brand building all consumer product categories including apparel, intimates, footwear & accessories through Digital Mediums.
 `;
@@ -45,8 +46,32 @@ function HeroSection() {
   return (
     <div>
       {/* navbar for smaller screens  */}
-      <div className="relative w-full  p-2 flex justify-between md:hidden bg-[#1E0F46]">
+      <div className="relative w-full  p-2 flex justify-between md:hidden  bg-[#cc6c5c]">
         <NavSheet />
+
+        <div className="relative flex justify-center ">
+          <Link href="https://amswan.co/" target="_blank" className="flex">
+            {/* <span className=" text-white font-mont font-medium">A</span>
+            <span className=" text-white font-mont font-medium">V</span>
+            <span className=" text-white font-mont font-medium">N</span>
+            <span className=" text-white font-mont font-medium">I</span>
+            <span className=" text-white font-mont font-medium">D</span>
+            <span className=" text-white font-mont font-medium">E</span> */}
+            <Image
+              src="/imgs/avnide1.png"
+              alt="logo"
+              width={80}
+              height={10}
+              className=" "
+            />{" "}
+            {/* <span className=" text-white font-mont font-medium">S</span>
+            <span className=" text-white font-mont font-medium">P</span>
+            <span className=" text-white font-mont font-medium">O</span>
+            <span className=" text-white font-mont font-medium">R</span>
+            <span className=" text-white font-mont font-medium">T</span>
+            <span className=" text-white font-mont font-medium">S</span> */}
+          </Link>
+        </div>
 
         <div className="p-2">
           <Link href="https://amswan.co/pages/about-us">
@@ -60,78 +85,14 @@ function HeroSection() {
         </div>
       </div>
       {/* navbar */}
-      <div className="relative   hidden md:grid w-full md:grid-cols-6 gap-0  z-10 hover:text-white  bg-transparent justify-items-center hover:bg-[#1E0F46]   transition-all duration-500">
-        <div>
-          <Link href="https://amswan.co/">
-            <Image src="/imgs/avnide1.png" alt="logo" width={100} height={20} />{" "}
-          </Link>
-        </div>
-        <div
-          className="text-sm text-white  font-mono p-2 
-        w-fit font-semibold underline
-         underline-offset-8 
-        cursor-pointer  
-        "
-        >
-          <Link href="https://amswan.co/collections/men">
-            <span className="text-white hover:text-red-500 transition-all duration-700">
-              MEN
-            </span>
-          </Link>
-        </div>
-        <div
-          className="text-sm text-white  font-mono p-3 
-        w-fit font-semibold underline decoration-1 md:underline-offset-8 
-         cursor-pointer  
-        hover:text-white"
-        >
-          <Link href="https://amswan.co/collections/women-1">
-            <span
-              className="text-white transition-all duration-700
-              hover:text-red-500"
-            >
-              WOMEN
-            </span>
-          </Link>
-        </div>
 
-        <div
-          className="text-sm text-white  font-mono 
-        p-3 w-fit font-semibold underline decoration-1 md:underline-offset-8
-        cursor-pointer 
-        hover:text-white"
-        >
-          <Link href="https://amswan.co/blogs/news">
-            <span
-              className="text-white transition-all duration-700
-              hover:text-red-500"
-            >
-              DiSCOVER
-            </span>
-          </Link>
-        </div>
-        <div
-          className="text-sm text-white  font-mono p-2
-         w-fit font-semibold underline decoration-1 md:underline-offset-8
-          cursor-pointer -top-1 
-          hover:text-white"
-        >
-          <Link href="https://amswan.co/pages/about-us">
-            <span
-              className="text-white m-0 p-0 transition-all duration-700
-              hover:text-red-500"
-            >
-              CONTACT US
-            </span>
-          </Link>
-        </div>
-      </div>
+      <Navbar />
       {/* lamp effect  */}
       {/* <Lamp /> */}
       {/* navbar videos  */}
-      <div className=" gap-0 justify-center items-center relative sm:-top-16 z-0 h-fit w-full">
-        <video width="full" autoPlay loop muted>
-          <source src="/vids/front2.mp4" type="video/mp4" />
+      <div className="  justify-center items-center relative md:-top-24 z-0 h-fit w-full">
+        <video width="full" muted autoPlay loop>
+          <source src="/vids/amswan.mp4" type="video/mp4" />
         </video>
       </div>
       {/* 
@@ -154,14 +115,14 @@ function HeroSection() {
       </div> */}
 
       {/* heading brand name about  */}
-      <p className="text-lg md:text-7xl font-normal pb-4 text-center bg-clip-text text-transparent  text-red-400">
+      {/* <p className="text-lg md:text-7xl font-normal pb-4 text-center bg-clip-text text-transparent  text-red-400">
         About Avnide Sports
-      </p>
+      </p> */}
 
       {/* motive about */}
-      <p className="text-xs md:text-xl mb-6 font-normal text-center text-red-500 mt-4 max-w-lg mx-auto">
+      {/* <p className="text-xs md:text-xl mb-6 font-normal text-center text-red-500 mt-4 max-w-lg mx-auto">
         MoveIt reflects our mission to get India active, healthy, and moving
-      </p>
+      </p> */}
       <Slider />
       {/* <ParallelScroll /> */}
 
@@ -196,9 +157,9 @@ function HeroSection() {
         <ButtonsCard>
           <Link href="https://amswan.co/collections/new-arrival">
             <button
-              className="px-8 py-2 rounded-md bg-red-500 text-white 
+              className="px-8 py-2 rounded-md bg-red-500 text-white hover:text-red-500
             font-bold transition duration-200 hover:bg-white
-             hover:text-black border-2 border-transparent hover:border-red-500"
+             border-2 border-transparent hover:border-red-500"
             >
               FIND OUT MORE
             </button>
