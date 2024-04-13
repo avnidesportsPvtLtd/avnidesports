@@ -20,14 +20,17 @@ function Section() {
           height={500}
           className=" relative"
         /> */}
-        <p className=" text-center text-white font-thin font-italiano text-4xl  md:p-3 md:w-2/5">
+      </div>
+      <div className=" flex flex-col place-items-center lg:mt-5">
+        <h2 className="text-center text-red-600 text-3xl font-antic font-normal pt-10">
+          ABOUT{" "}
+        </h2>
+        <p className=" text-center text-red-600 font-thin font-italiano text-4xl  md:p-3 md:w-2/5">
           AVNiDE is an Apparel & Lifestyle Brand Development & Management
           company dedicated to New Brand Development, Design & Product
           Development for leading Apparel & Lifestyle ecommerce companies.
           <span className="pt-2">~~ AVNIDE SPORTS</span>
         </p>
-      </div>
-      <div className=" flex flex-col place-items-center lg:mt-5">
         <h2 className="text-center text-red-600 text-3xl font-antic font-normal pt-10">
           OUR VISION{" "}
         </h2>
