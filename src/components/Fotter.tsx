@@ -6,6 +6,7 @@ import { ButtonsCard } from "./ui/tailwindcss-buttons";
 import RevelCard from "./RevelCard";
 import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "@/components/ui/canvas-reveal-effect";
+import Social from "./Social";
 
 const Card = ({
   title,
@@ -243,6 +244,7 @@ function Fotter() {
             </button>
           </Link>
         </ButtonsCard>
+        <Social />
         <p className="text-center text-white font-mono font-thin m-0 p-2 text-sm">
           Copyright &#169; 2024 AVNIDE SPORTS PVT. LTD. - All Rights Reserved.
         </p>

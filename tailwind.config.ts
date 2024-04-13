@@ -11,6 +11,8 @@ const config: Config = {
     extend: {
       fontFamily: {
         mont: ["Montserrat", "sans-serif"],
+        italiano: ["Italianno", "cursive"],
+        antic: ["Antic Didone", "cursive"],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
