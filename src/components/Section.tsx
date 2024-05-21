@@ -25,7 +25,7 @@ function Section() {
         <h2 className="text-center text-red-600 text-3xl font-antic font-normal pt-10">
           ABOUT{" "}
         </h2>
-        <p className=" text-center text-[#1E0F46] font-thin font-mont text-4xl  md:p-3 md:w-2/5">
+        <p className=" text-center text-[#1E0F46] font-thin font-mont font-bold  text-4xl  md:p-3 md:w-2/5">
           AVNiDE is an Apparel & Lifestyle Brand Development & Management
           company dedicated to New Brand Development, Design & Product
           Development for leading Apparel & Lifestyle ecommerce companies.
