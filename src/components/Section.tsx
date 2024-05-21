@@ -25,7 +25,7 @@ function Section() {
         <h2 className="text-center text-red-600 text-3xl font-antic font-normal pt-10">
           ABOUT{" "}
         </h2>
-        <p className=" text-center text-red-600 font-thin font-italiano text-4xl  md:p-3 md:w-2/5">
+        <p className=" text-center text-[#1E0F46] font-thin font-mont text-4xl  md:p-3 md:w-2/5">
           AVNiDE is an Apparel & Lifestyle Brand Development & Management
           company dedicated to New Brand Development, Design & Product
           Development for leading Apparel & Lifestyle ecommerce companies.
@@ -34,7 +34,7 @@ function Section() {
         <h2 className="text-center text-red-600 text-3xl font-antic font-normal pt-10">
           OUR VISION{" "}
         </h2>
-        <p className="text-red-400 text-justify font-mont text-sm pt-10 md:w-1/2 p-3 ">
+        <p className="text-[#1E0F46] text-justify font-mont text-sm pt-10 md:w-1/2 p-3 ">
           AVNIDE mission is to create, evolve, transform, reimagine Apparel &
           Lifestyle brands through innovative business models, powerful
           storytelling, compelling content and immersive experiences. Brand
