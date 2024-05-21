@@ -138,8 +138,8 @@ function Fotter() {
         </h1>
       </div> */}
       <h2
-        className="text-center font-mono font-thin text-xl
-       text-red-500 p-2 sm:p-12 mt-12 underline
+        className="text-center text-red-600 text-3xl font-antic font-normal pt-10
+        p-2 sm:p-12 mt-12 underline
         underline-offset-8 decoration-1"
       >
         KEY DIFFERENTIATORS
@@ -180,12 +180,12 @@ function Fotter() {
 
       <div className="grid md:grid-cols-3 gap-3 sm:ml-8 mt-8">
         <div>
-          <h1 className="p-4 text-center font-mono text-xl text-red-600">
-            Branding
+          <h1 className="p-4 text-center font-antic text-xl text-red-600">
+            BRANDING
           </h1>
 
           <Image src="/imgs/dt.png" alt="img" width={500} height={800} />
-          <h1 className="p-4 text-center font-mono text-xl text-red-600">
+          <h1 className="p-4 text-center font-antic text-xl text-red-600">
             DIGITAL TRANSFORMATION
           </h1>
           <p className="p-6 font-thin text-gray-500 font-serif text-center">
@@ -194,14 +194,14 @@ function Fotter() {
         </div>
 
         <div>
-          <h1 className="p-4 text-center font-mono text-xl text-red-600">
-            Lisencing
+          <h1 className="p-4 text-center font-antic text-xl text-red-600">
+            LICENSING
           </h1>
           <Link href="https://www.youtube.com/watch?v=uZ5NrkSA550">
             <Image src="/imgs/cc.png" alt="img" width={500} height={800} />
           </Link>
 
-          <h1 className="p-4 text-center font-mono text-xl text-red-600">
+          <h1 className="p-4 text-center font-antic text-xl text-red-600">
             CONTENT CREATION
           </h1>
           <p className="p-6 font-thin text-gray-500 font-serif text-center">
@@ -209,12 +209,12 @@ function Fotter() {
           </p>
         </div>
         <div>
-          <h1 className="p-4 text-center font-mono text-xl text-red-600">
-            Creative Sourcing
+          <h1 className="p-4 text-center font-antic text-xl text-red-600">
+            CREATIVE SOURCING
           </h1>
           <Image src="/imgs/sm.png" alt="img" width={500} height={800} />
 
-          <h1 className="p-4 text-center font-mono text-xl text-red-600">
+          <h1 className="p-4 text-center font-antic text-xl text-red-600">
             SOCIAL MEDIA
           </h1>
 
@@ -223,7 +223,7 @@ function Fotter() {
           </p>
         </div>
       </div>
-      <div className="bg-[#B9B1A3] w-full">
+      <div className="bg-[#D9D9D9] w-full">
         <h1 className="p-8 text-center underline underline-offset-8 text-white font-mono font-semibold cursor-pointer">
           SUBSCRIBE
         </h1>
@@ -237,9 +237,13 @@ function Fotter() {
             className="p-4 border-2 rounded-md border-transparent  w-1/2 "
           />
         </div>
-        <ButtonsCard>
+        <ButtonsCard className="">
           <Link href="https://amswan.co/account/login">
-            <button className="px-8 py-2 rounded-lg bg-red-500 text-white font-bold transition duration-200 hover:bg-white hover:text-black border-2 border-transparent hover:border-red-500">
+            <button
+              className="px-8 py-2  rounded-lg bg-red-500 text-white 
+            font-bold transition duration-200 hover:bg-white
+             hover:text-black border-2 border-transparent hover:border-red-500"
+            >
               Sign UP
             </button>
           </Link>

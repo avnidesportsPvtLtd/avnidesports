@@ -3,6 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/Navbar";
 import NewNav from "@/components/NewNav";
 import Image from "next/image";
+import Section from "@/components/Section";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       {/* <HeroSection /> */}
       {/* <Navbar /> */}
       <NewNav />
+      <Section />
       <Fotter />
     </main>
   );
