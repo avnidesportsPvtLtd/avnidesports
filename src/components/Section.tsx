@@ -44,7 +44,7 @@ function Section() {
         <h2 className="text-center text-red-600 text-3xl font-antic font-normal pt-10">
           Our Products & Brands
         </h2>
-        <p className="text-red-400 text-justify  font-mont text-sm pt-10 md:w-1/2 p-3 ">
+        <p className="text-[#1E0F46] text-justify  font-mont text-sm pt-10 md:w-1/2 p-3 ">
           Our products, which include apparel, accessories, and collections for
           men and women compose one of the world&apos;s most widely recognised
           families of consumer brands. Reflecting a distinctive American
