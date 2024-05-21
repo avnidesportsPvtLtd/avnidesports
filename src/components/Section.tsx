@@ -25,7 +25,7 @@ function Section() {
         <h2 className="text-center text-red-600 text-3xl font-antic font-normal pt-10">
           ABOUT{" "}
         </h2>
-        <p className=" text-center text-red-600 font-thin font-italiano text-4xl  md:p-3 md:w-2/5">
+        <p className=" text-center text-[#545454]  font-mont font-medium  text-lg  md:p-3 md:w-1/2">
           AVNiDE is an Apparel & Lifestyle Brand Development & Management
           company dedicated to New Brand Development, Design & Product
           Development for leading Apparel & Lifestyle ecommerce companies.
@@ -34,7 +34,7 @@ function Section() {
         <h2 className="text-center text-red-600 text-3xl font-antic font-normal pt-10">
           OUR VISION{" "}
         </h2>
-        <p className="text-red-400 text-justify font-mont text-sm pt-10 md:w-1/2 p-3 ">
+        <p className="text-[#545454] text-justify font-mont font-medium pt-10 md:w-1/2 p-3 ">
           AVNIDE mission is to create, evolve, transform, reimagine Apparel &
           Lifestyle brands through innovative business models, powerful
           storytelling, compelling content and immersive experiences. Brand
@@ -42,9 +42,9 @@ function Section() {
           footwear & accessories through Digital Mediums.
         </p>
         <h2 className="text-center text-red-600 text-3xl font-antic font-normal pt-10">
-          Our Products & Brands
+          OUR PRODUCTS AND BRANDS
         </h2>
-        <p className="text-red-400 text-justify  font-mont text-sm pt-10 md:w-1/2 p-3 ">
+        <p className="text-[#545454]  text-justify  font-mont font-medium  pt-10 md:w-1/2 p-3 ">
           Our products, which include apparel, accessories, and collections for
           men and women compose one of the world&apos;s most widely recognised
           families of consumer brands. Reflecting a distinctive American
@@ -56,12 +56,12 @@ function Section() {
           marketing, and imaging skills to offer, along with our licencing
           alliances, broad lifestyle product collections with a unified vision.
         </p>
-        <Link href="https://amswan.co/" target="_blank">
+        {/* <Link href="https://amswan.co/" target="_blank">
           <p className=" text-red-800 pt-10 font-mont">
             VISIT OUR CORPORATE SITE
           </p>
           <hr className=" bg-red-800 h-[2px] " />
-        </Link>
+        </Link> */}
       </div>
       <div className="  pt-12">
         <NewSlider />
