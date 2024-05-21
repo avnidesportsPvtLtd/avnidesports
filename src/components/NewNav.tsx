@@ -94,11 +94,11 @@ function NewNav() {
         </Link>
         <Link href="https://amswan.co/collections/men" target="_blank">
           <span
-            className="p-2 text-red-600  group relative  
+            className="p-2 text-[#1E0F46]  group relative  
         hover:before:scale-x-100 hover:before:origin-left 
         before:w-full before:h-[2px] before:origin-right 
         before:transition-transform before:duration-700 
-        before:scale-x-0 before:bg-red-500 lg:pl-4 before:absolute 
+        before:scale-x-0 before:bg-[#1E0F46] lg:pl-4 before:absolute 
        
         before:left-0 before:bottom-0 font-mont font-normal text-xs"
           >
@@ -107,11 +107,11 @@ function NewNav() {
         </Link>
         <Link href="https://amswan.co/collections/women-1" target="_blank">
           <span
-            className="p-2 text-red-600  group relative  
+            className="p-2 text-[#1E0F46]  group relative  
         hover:before:scale-x-100 hover:before:origin-left 
         before:w-full before:h-[2px] before:origin-right 
         before:transition-transform before:duration-700 
-        before:scale-x-0 before:bg-red-500 lg:pl-4 before:absolute 
+        before:scale-x-0 before:bg-[#1E0F46] lg:pl-4 before:absolute 
         before:left-0 before:bottom-0 font-mont font-normal text-xs"
           >
             Women&apos;s
@@ -119,11 +119,11 @@ function NewNav() {
         </Link>
         <Link href="https://amswan.co/collections/mens-shirts" target="_blank">
           <span
-            className="p-2 text-red-600  group relative  
+            className="p-2 text-[#1E0F46]  group relative  
         hover:before:scale-x-100 hover:before:origin-left 
         before:w-full before:h-[2px] before:origin-right 
         before:transition-transform before:duration-700 
-        before:scale-x-0 before:bg-red-500 lg:pl-4 before:absolute 
+        before:scale-x-0 before:bg-[#1E0F46] lg:pl-4 before:absolute 
         before:left-0 before:bottom-0 font-mont font-normal text-xs"
           >
             Collections
@@ -132,11 +132,11 @@ function NewNav() {
 
         <Link href="https://amswan.co/blogs/news" target="_blank">
           <span
-            className="p-2 text-red-600  group relative  
+            className="p-2 text-[#1E0F46]  group relative  
         hover:before:scale-x-100 hover:before:origin-left 
         before:w-full before:h-[2px] before:origin-right 
         before:transition-transform before:duration-700 
-        before:scale-x-0 before:bg-red-500 lg:pl-4 before:absolute 
+        before:scale-x-0 before:bg-[#1E0F46] lg:pl-4 before:absolute 
         before:left-0 before:bottom-0 font-mont font-normal text-xs"
           >
             Discover
@@ -144,11 +144,11 @@ function NewNav() {
         </Link>
         <Link href="https://amswan.co/pages/contact" target="_blank">
           <span
-            className="p-2 text-red-600  group relative  
+            className="p-2 text-[#1E0F46]  group relative  
         hover:before:scale-x-100 hover:before:origin-left 
         before:w-full before:h-[2px] before:origin-right 
         before:transition-transform before:duration-700 
-        before:scale-x-0 before:bg-red-500 lg:pl-4 before:absolute 
+        before:scale-x-0 before:bg-[#1E0F46] lg:pl-4 before:absolute 
         before:left-0 before:bottom-0 font-mont font-normal text-xs"
           >
             Contact us
