@@ -28,73 +28,58 @@ function NavSheet() {
         <SheetHeader>
           <SheetTitle className="">
             {/* <h1 className="p-2 w-fit">Move with Fashion</h1> */}
-            <Link href="https://amswan.co/collections/men" target="_blank">
+            <Link href="/" target="_blank">
               <span className="  transition-all duration-700 underline  underline-offset-4 ">
-                New Arrivals
+                HOME
               </span>
             </Link>
           </SheetTitle>
+        
           <SheetTitle>
             {" "}
-            <Link href="https://amswan.co/collections/men" target="_blank">
-              <span className="  transition-all duration-700">Men</span>
-            </Link>
-          </SheetTitle>
-          <SheetTitle>
-            {" "}
-            <Link href="https://amswan.co/collections/women-1" target="_blank">
+            <Link href="/servcs" target="_blank">
               <span
                 className=" transition-all duration-700
               "
               >
-                Women
+              SERVICES
               </span>
             </Link>
           </SheetTitle>
           <SheetTitle>
             {" "}
-            <Link href="https://amswan.co/blogs/news" target="_blank">
+            <Link href="/ourProduct" target="_blank">
               <span
                 className=" transition-all duration-700
               "
               >
-                Discover
+               OUR PRODUCT
               </span>
             </Link>
           </SheetTitle>
           <SheetTitle>
             {" "}
-            <Link href="https://amswan.co/collections/bags" target="_blank">
+            <Link href="/customer" target="_blank">
               <span
                 className=" transition-all duration-700
               "
               >
-                Bags
+              CUSTOMERS
               </span>
             </Link>
           </SheetTitle>
           <SheetTitle>
             {" "}
-            <Link href="https://amswan.co/collections/socks-1" target="_blank">
+            <Link href="/contactUs" target="_blank">
               <span
                 className=" transition-all duration-700
               "
               >
-                Socks
+              CONTACT US
               </span>
             </Link>
           </SheetTitle>
-          <SheetTitle>
-            {" "}
-            <Link href="https://amswan.co/pages/about-us" target="_blank">
-              <span
-                className=" transition-all duration-700
-              "
-              >
-                About Us
-              </span>
-            </Link>
-          </SheetTitle>
+         
         </SheetHeader>
       </SheetContent>
     </Sheet>
