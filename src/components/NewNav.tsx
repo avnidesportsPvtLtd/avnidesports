@@ -138,7 +138,7 @@ function NewNav() {
 
 
         <Link href="/contactUs" target="_blank">
-=======
+
         <Link href="https://amswan.co/blogs/news" target="_blank">
           <span
             className="p-2 text-[#1E0F46]  group relative  
