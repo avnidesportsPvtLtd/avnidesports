@@ -87,11 +87,11 @@ function NewNav() {
       <div className="hidden lg:flex lg:justify-center pt-3 pb-4 bg-slate-50 sticky top-0 ">
         <Link href="/" target="_blank">
           <span
-            className="p-2 text-red-600 hover:text-[#1E0F46]  group relative  
+            className="p-2 text-red-600  group relative  
         hover:before:scale-x-100 hover:before:origin-left 
         before:w-full before:h-[2px] before:origin-right 
         before:transition-transform before:duration-700 
-        before:scale-x-0 before:bg-[#1E0F46] lg:pl-4 before:absolute 
+        before:scale-x-0 before:bg-red-500 lg:pl-4 before:absolute 
         before:left-0 before:bottom-0 font-mont font-normal text-xs"
           >
             HOME
@@ -100,11 +100,11 @@ function NewNav() {
         </Link>
         <Link href="/servcs" target="_blank">
           <span
-            className="p-2 text-[#1E0F46]  group relative  
+            className="p-2 text-red-600  group relative  
         hover:before:scale-x-100 hover:before:origin-left 
         before:w-full before:h-[2px] before:origin-right 
         before:transition-transform before:duration-700 
-        before:scale-x-0 before:bg-[#1E0F46] lg:pl-4 before:absolute 
+        before:scale-x-0 before:bg-red-500 lg:pl-4 before:absolute 
        
         before:left-0 before:bottom-0 font-mont font-normal text-xs"
           >
@@ -113,11 +113,11 @@ function NewNav() {
         </Link>
         <Link href="/ourProduct" target="_blank">
           <span
-            className="p-2 text-[#1E0F46]  group relative  
+            className="p-2 text-red-600  group relative  
         hover:before:scale-x-100 hover:before:origin-left 
         before:w-full before:h-[2px] before:origin-right 
         before:transition-transform before:duration-700 
-        before:scale-x-0 before:bg-[#1E0F46] lg:pl-4 before:absolute 
+        before:scale-x-0 before:bg-red-500 lg:pl-4 before:absolute 
         before:left-0 before:bottom-0 font-mont font-normal text-xs"
           >
             OUR PRODUCT
@@ -125,40 +125,24 @@ function NewNav() {
         </Link>
         <Link href="/customer" target="_blank">
           <span
-            className="p-2 text-[#1E0F46]  group relative  
+            className="p-2 text-red-600  group relative  
         hover:before:scale-x-100 hover:before:origin-left 
         before:w-full before:h-[2px] before:origin-right 
         before:transition-transform before:duration-700 
-        before:scale-x-0 before:bg-[#1E0F46] lg:pl-4 before:absolute 
+        before:scale-x-0 before:bg-red-500 lg:pl-4 before:absolute 
         before:left-0 before:bottom-0 font-mont font-normal text-xs"
           >
             CUSTOMERS
           </span>
         </Link>
 
-
         <Link href="/contactUs" target="_blank">
-
-        <Link href="https://amswan.co/blogs/news" target="_blank">
           <span
-            className="p-2 text-[#1E0F46]  group relative  
+            className="p-2 text-red-600  group relative  
         hover:before:scale-x-100 hover:before:origin-left 
         before:w-full before:h-[2px] before:origin-right 
         before:transition-transform before:duration-700 
-        before:scale-x-0 before:bg-[#1E0F46] lg:pl-4 before:absolute 
-        before:left-0 before:bottom-0 font-mont font-normal text-xs"
-          >
-            Discover
-          </span>
-        </Link>
-        <Link href="https://amswan.co/pages/contact" target="_blank">
-
-          <span
-            className="p-2 text-[#1E0F46]  group relative  
-        hover:before:scale-x-100 hover:before:origin-left 
-        before:w-full before:h-[2px] before:origin-right 
-        before:transition-transform before:duration-700 
-        before:scale-x-0 before:bg-[#1E0F46] lg:pl-4 before:absolute 
+        before:scale-x-0 before:bg-red-500 lg:pl-4 before:absolute 
         before:left-0 before:bottom-0 font-mont font-normal text-xs"
           >
             CONTACT US
